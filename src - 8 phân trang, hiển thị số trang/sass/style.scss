@@ -1,0 +1,325 @@
+$color_white:#fff;
+$color_black:#000;
+$font_fml:"Avenir",
+Helvetica,
+Arial,
+sans-serif;
+
+
+/*------------------------- END MODULE 3----------------------*/
+/*------------------------- MODULE 2----------------------*/
+#app {
+  #nav {
+    background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    .nav-title {
+      line-height: 60px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: $color_white;
+    }
+
+    .box-out {
+      padding: 10px;
+      background: rgb(161, 140, 126);
+      color: $color_white;
+      border-radius: 5px;
+      transition: all ease 0.5s;
+      text-decoration: none;
+      position: absolute;
+      top: 6px;
+      right: 23%;
+    }
+
+    .box-out:hover {
+      background: rgb(77, 65, 65);
+    }
+
+  }
+}
+/*------------------------- END MODULE 2----------------------*/
+/*------------------------- MODULE 3----------------------*/
+#footer {
+  background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+
+  strong {
+    line-height: 60px;
+    color: $color_white;
+
+    a {
+      color: $color_white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $color_black;
+      transition: .4;
+    }
+  }
+}
+/*-------------------------END MODULE 3----------------------*/
+
+/*------------------------- MODULE 4----------------------*/
+#box-user {
+  font-family: $font_fml;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  padding-top: 30px;
+
+  .block-images {
+    position: relative;
+
+    img {
+      position: absolute;
+      width: 100px;
+      left: 0px;
+    }
+  }
+
+  .block-select {
+    text-align: right;
+
+    .select {
+      display: inline;
+    }
+  }
+
+  .block-manage {
+    margin: 40px 0px;
+
+    h2 {
+      display: inline;
+      font-weight: 700;
+      font-style: initial;
+    }
+
+    .bt-addnew {
+      position: relative;
+
+      .btn {
+        position: absolute;
+        right: 10px;
+        margin-top: -39px;
+      }
+    }
+  }
+
+  .block-user-list {
+    .table {
+      .hover-tr:hover {
+        cursor: pointer;
+      }
+
+      .bg-th {
+        color: $color_white;
+        background: rgba(68, 59, 59, 0.637);
+      }
+
+      .block-tbody {
+        background: $color_white;
+
+        .td-id {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .block-ul {
+      margin: 20px 0px;
+      list-style-type: none;
+      padding: 0;
+
+      .li {
+        display: inline-block;
+        margin: 0 3px;
+
+        a {
+          padding: 7px;
+          background: rgb(176, 176, 226);
+          border-radius: 10px;
+          color: $color_white;
+        }
+
+        a:hover {
+          transition: all ease 0.5s;
+          padding: 7px;
+          background: rgb(7, 59, 228);
+          text-decoration: none;
+        }
+        .current{
+          padding: 7px;
+          background: rgb(7, 59, 228);
+          color: $color_white;
+        }
+      }
+    }
+  }
+}
+/*------------------------- END MODULE 4----------------------*/
+
+
+/*!----------------------------- MODULE 2-----------------------*/
+#box-employee {
+  font-family: $font_fml;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  padding-top: 30px;
+
+  .block-images {
+    position: relative;
+
+    img {
+      position: absolute;
+      width: 100px;
+      left: 0px;
+    }
+  }
+
+  .block-select {
+    text-align: right;
+
+    .select {
+      display: inline;
+    }
+  }
+
+  .block-manage {
+    margin: 40px 0px;
+
+    h2 {
+      display: inline;
+      font-weight: 700;
+      font-style: initial;
+    }
+
+    .bt-addnew {
+      position: relative;
+
+      .btn {
+        position: absolute;
+        right: 10px;
+        margin-top: -39px;
+      }
+    }
+  }
+
+  .block-employee-list {
+    .table {
+      .hover-tr:hover {
+        cursor: pointer;
+      }
+
+      .bg-th {
+        color: $color_white;
+        background: rgba(68, 59, 59, 0.637);
+      }
+
+
+      .block-tbody {
+        background: $color_white;
+
+        .td-id {
+          font-weight: 700;
+        }
+      }
+    }
+
+
+    .block-ul {
+      margin: 20px 0px;
+      list-style-type: none;
+      padding: 0;
+
+      .li {
+        display: inline-block;
+        margin: 0 3px;
+
+        a {
+          padding: 7px;
+          background: rgb(176, 176, 226);
+          border-radius: 10px;
+          color: $color_white;
+        }
+
+        a:hover {
+          transition: all ease 0.5s;
+          padding: 7px;
+          background: rgb(7, 59, 228);
+          text-decoration: none;
+        }
+        .current{
+          padding: 7px;
+          background: rgb(7, 59, 228);
+          color: $color_white;
+        }
+      }
+    }
+
+
+  }
+}
+
+/*------------------------- END MODULE 2----------------------*/
+
+
+/*------------------------- MODULE 3----------------------*/
+.box-login {
+  text-align: center;
+  width: 500px;
+  border: 1px solid #cccccc;
+  background-color: $color_white;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+}
+
+/*!----------------------------- MODULE 1-----------------------*/
+.box-editemployee {
+  .block-add {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.7);
+
+    .form-add {
+      margin: auto;
+      border: 1px solid $color_white;
+      padding: 25px;
+      border-radius: 5px;
+      position: absolute;
+      width: 500px;
+      background: $color_white;
+      left: 38%;
+      margin-top: -30%;
+
+      #close {
+        margin-left: 25px;
+      }
+    }
+  }
+}
+
+/*------------------------- END MODULE 1----------------------*/
